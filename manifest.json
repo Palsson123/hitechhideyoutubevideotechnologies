@@ -1,0 +1,16 @@
+{
+  "name": "Hide YouTube vide",
+  "description": "Hide YouTube videos by clicking the extension icon.",
+  "version": "1.0",
+  "permissions": [
+    "activeTab"
+  ],
+  "browser_action": {
+    "default_title": "Hide that YouTube video"
+ },
+ "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "manifest_version": 2
+}
